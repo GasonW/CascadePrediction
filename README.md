@@ -90,6 +90,7 @@ A cascade prediction model
 
 ## Preprocess flow
 1. Use `uniq.py` to delete the repeat weibos, 
-2. Use 'mktrain.py' to produce train data
+2. Use `mktrain.py` to produce train data
 3. Use `mkFeatures.py` to extract features from it.
 4. Use `CascadePrediction.py` to predict
+5. Use `dump.js` to export data from mongodb, the command is "mongo database dump.js>yourfile.json"
